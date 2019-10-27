@@ -73,3 +73,28 @@ perimetro = (altura * 2) + (base * 2);
 area = base * altura;
 textoResultado = `El perímetro es ${perimetro} y el área es ${area}`;
 console.log(textoResultado);
+
+
+
+console.log("EJERCICIO 33");
+
+let cantidadDePersonas = 100;
+cantidadDePersonas += 5;
+textoResultado = `Cantidad de personas: ${cantidadDePersonas}`;
+console.log(textoResultado);
+cantidadDePersonas -= 3;
+textoResultado = `Cantidad de personas: ${cantidadDePersonas}`;
+console.log(textoResultado);
+cantidadDePersonas *= 2;
+textoResultado = `Cantidad de personas: ${cantidadDePersonas}`;
+console.log(textoResultado);
+
+
+
+console.log("EJERCICIO 35");
+let numeroDeCliente = 143245;
+let numeroDeClienteIngresado = '143245';
+resultado = numeroDeCliente == numeroDeClienteIngresado;
+console.log("El número ingresado por el cliente es correcto: " + resultado);
+resultado = numeroDeCliente === numeroDeClienteIngresado;
+console.log("El cliente ingresó un número de cliente es válido: " + resultado);
