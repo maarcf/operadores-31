@@ -91,6 +91,16 @@ console.log(textoResultado);
 
 
 
+console.log("EJERCICIO 34");
+let ingresos = 1000;
+let ganancias = 600;
+let impuestos = 500;
+console.log("Objetivo de ingresos:", ingresos >= 800);
+console.log("Objetivo de impuestos:", impuestos < 400);
+console.log("Bono de ganancias:", ganancias == 600);
+
+
+
 console.log("EJERCICIO 35");
 let numeroDeCliente = 143245;
 let numeroDeClienteIngresado = '143245';
@@ -98,3 +108,19 @@ resultado = numeroDeCliente == numeroDeClienteIngresado;
 console.log("El número ingresado por el cliente es correcto: " + resultado);
 resultado = numeroDeCliente === numeroDeClienteIngresado;
 console.log("El cliente ingresó un número de cliente es válido: " + resultado);
+
+
+
+console.log("EJERCICIO 36");
+numero1 = 10;
+numero2 = 20;
+console.log("La variable numero1 y numero2 tienen el mismo valor:", numero1 === numero2);
+console.log("La variable numero1 y numero2 son distintintas:", numero1 !== numero2);
+
+
+
+console.log("EJERCICIO 37");
+let promedioParaAprobar = 6;
+let promedioDelAlumno = 4;
+console.log("El alumno tiene un promedio mayor o igual que el requerido:", promedioDelAlumno >= promedioParaAprobar);
+console.log(`Al alumno le faltaron ${promedioParaAprobar - promedioDelAlumno} puntos para aprobar`);
